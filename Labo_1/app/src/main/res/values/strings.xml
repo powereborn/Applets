@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Labo_1</string>
+    <string name="title_activity_main">Clubs ETS</string>
+    <string name="action_settings">Paramètres</string>
+    <string name="error_insert_bdd">Problème  lors de l\'insertion des données</string>
+
+</resources>

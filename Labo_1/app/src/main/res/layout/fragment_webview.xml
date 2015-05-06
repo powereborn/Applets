@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.nicolas.fragment.WebViewFragment">
+
+    <TextView
+        android:id="@+id/nameSite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="nom du site"
+        android:textSize="25px"
+        android:textStyle="bold"
+        android:padding="10px"
+        android:layout_weight="1"/>
+
+    <WebView android:id="@+id/webView" android:layout_height="match_parent" android:layout_width="match_parent" android:layout_weight="9" />
+
+</LinearLayout>
